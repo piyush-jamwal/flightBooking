@@ -20,6 +20,7 @@ function MyTabs() {
   return (
     <Tab.Navigator
       screenOptions={{headerShown: false, tabBarActiveTintColor: 'purple'}}>
+        
       <Tab.Screen
         options={{
           tabBarIcon: ({color, size}) => <HomeIcon height="30" />,
